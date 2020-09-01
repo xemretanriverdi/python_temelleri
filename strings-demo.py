@@ -24,6 +24,25 @@ print(course2)
 courseTers= course[::-1]
 print("tersten  " , courseTers)
 
-#benim adım bora yılmaz yaşım 32 ve mesleğim mühendis  ifadesini ekrana değişkenli yazır
 
-result = f"/benim adım" {name}
+#benim adım bora yılmaz yaşım 32 ve mesleğim mühendis  
+# ifadesini ekrana değişkenli yazır
+
+
+name= "Emre"
+surname= "Tanrıverdi"
+age= 21
+job= "Bilgisayar Mühendisi"
+
+result = f" Benim adım {name} {surname} yaşım {age} mesleğim {job}."
+
+print(result)
+
+    #hello world kelimesindeki w  ile W değiş
+selamla = "hello world"
+print(selamla[0:6]+"W"+selamla[7:])
+
+#abc ifatedesi yan yana üc defa yaz
+
+karakter="abc"
+print(3*karakter)

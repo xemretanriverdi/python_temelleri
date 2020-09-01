@@ -8,8 +8,9 @@ print(f'My name is {name} {surname}') # f formatın kolay hali
 
 result = 200/700
 
-print("the result is {}".format(result))
-print("the result is {r:1.4}".format(r=result))
+
+print("the result is {r:1.3}".format(r=result)) #virgülden sonraki sayı adeti
+print("the result is {r:1.5}".format(r=result))
 
 
 
