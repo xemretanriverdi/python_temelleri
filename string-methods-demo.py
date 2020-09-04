@@ -7,8 +7,6 @@ message = message.strip()
 print(message)
 
 #2 websitede sadece emretanriverdi kalsın
-website2=website.strip("w.htp:/.com")
-print(website2)
 
 #3 course de tüm karakterleri kücük yapın
 course =course.lower()
