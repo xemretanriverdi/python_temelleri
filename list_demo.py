@@ -31,5 +31,9 @@ print(cars)
 
 #son eleman silin
 
-remove.
+del cars[-1]
 print(cars)
+
+
+#arabaları tersten yazdır
+print(cars[::-1])
