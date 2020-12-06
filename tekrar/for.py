@@ -14,3 +14,14 @@ while(i<=sayi):
     fakt=fakt*i
     i+=1
 print("{} sayisinin faktoriyeki {} dir".format(sayi,fakt))
+
+x={1,2,3,5,6}
+
+for sayi in x:
+    print(sayi)
+
+for sayi in range (1,30):
+    print(sayi)
+
+for sayi in range (1,100,2):
+    print(sayi)

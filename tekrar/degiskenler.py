@@ -17,7 +17,6 @@ print(type(f)) # sozluk
 
 print(a,b,f)
 
-metin=("Merhaba arkadaslar. Benim adım Emre, İstanbulda yaşıyorum. Yaklasık 3 senedir yazılımla uğrasıyorum")
-metin.split(".")
+
 
 
