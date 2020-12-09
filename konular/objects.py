@@ -7,7 +7,7 @@ class Account:
         self.bakiye = bakiye
 
     def hesapBilgileri(self):
-        print("Hesap bilgileri:")
+        print("Hesap bilgilerii:")
         print("Kullanici adi: ",self.isim)
         print("Hesap no: ",self.numara)
         print("Bakiye : ",self.bakiye)
