@@ -37,5 +37,7 @@ metin =metin.split(".")
 print(type(metin))
 print("Metinde {} adet cümle vardır".format(len(metin)))
 
+a = "araba"
 
-
+sonuc=(a.endswith("sba"))
+print(sonuc)
