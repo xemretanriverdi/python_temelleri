@@ -8,9 +8,7 @@ secaz = requests.get(imdburl)
 
 soup = BeautifulSoup(secaz.content,"html.parser")
 
-gelenVeri = soup.find_all("table",{"class" : "chart full-width"})
-
-filmTablosu=(gelenVeri[0].contents)[2]
-print(gelenVeri)
+gelen_veri = soup.find_all("table",{"class":"chart full-width"})
+print(len(gelen_veri[0]))
+gelen_veri2=
 print("*******************************")
-print(filmTablosu)
